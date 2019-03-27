@@ -66,7 +66,7 @@ function  c_keyword()
 
 var Show_Style=3;
 var Image_12=new Array();
-var Pics="/public/images/banner/01.jpg|/public/images/banner/01.jpg";
+var Pics="/images/banner/01.jpg|/images/banner/01.jpg";
 var Links="";
 var Titles="";
 var Alts="";
