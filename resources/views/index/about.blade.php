@@ -5,20 +5,20 @@
 <meta name="Author" content="PageAdmin网站管理系统" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link href="/public/templates/150703/style.css" type="text/css" rel="stylesheet" />
-<script src="/public/js/jquery.min.js" type="text/javascript"></script>
-<script src="/public/js/function.js" type="text/javascript"></script>
-<script src="/public/js/comm.js" type="text/javascript"></script><script src="/public/js/zh-cn/lang.js" type="text/javascript"></script><script src="/public/js/script.js" type="text/javascript"></script>
-<link href="/public/css/comm.css" type="text/css" rel="stylesheet" />
-<link href="/public/css/diy.css" type="text/css" rel="stylesheet" />
-<link href="/public/css/focus.css" type="text/css" rel="stylesheet" />
+<link href="{{ asset('templates/150703/style.css') }}" type="text/css" rel="stylesheet" />
+<script src="{{ asset('js/jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/function.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/comm.js') }}" type="text/javascript"></script><script src="{{ asset('js/zh-cn/lang.js') }}" type="text/javascript"></script><script src="{{ asset('js/script.js') }}" type="text/javascript"></script>
+<link href="{{ asset('css/comm.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('css/diy.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('css/focus.css') }}" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div class="page_style sublanmupage page_l62_sl564">
 <div class="top_box">
  <div class="top_box_inner">
    
-   <div class="logo"><a href="/public/"><img src="/public/images/s1/logo.png" border="0"></a></div>
+   <div class="logo"><a href="/public/"><img src="images/s1/logo.png" border="0"></a></div>
    <div class="topcontent"><div style="clear:both;overflow:hidden;">
 	<div style="float:left;">
 		<ul>
@@ -43,7 +43,7 @@ function  c_keyword()
  }
 </script>
 		<form action="/public/search/" target="zdy_search" method="get" name="S_article">
-			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="/public/css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
+			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
 		</form>
 	</div>
 </div></div><div class="clear"></div>
@@ -62,7 +62,7 @@ function  c_keyword()
 <div class="banner"><script type="text/javascript">
 var Show_Style=3;
 var Image_12=new Array();
-var Pics="/public/images/banner/01.jpg|/public/images/banner/01.jpg";
+var Pics="images/banner/01.jpg|images/banner/01.jpg";
 var Links="";
 var Titles="";
 var Alts="";
@@ -129,7 +129,7 @@ expand_subnav("sl564","0");
 <div class="ny_lx">
 <div class="ny_lx_1"><b>联系我们</b></div>
 </div>
-<div class="ny_lx_2"><img src="/public/css/images/lx_dh.png"></div>
+<div class="ny_lx_2"><img src="css/images/lx_dh.png"></div>
 <div class="kj_3_2">
 <ul>
 <li class="a">中国某某某机械有限公司</li>
@@ -146,7 +146,7 @@ expand_subnav("sl564","0");
    <div class="main_box_inner_right">
 <div class="current_location current_location_564"><ul><li class="current_location_1">当前位置：<a href=/>首页</a> &gt; <a href="/public/about/">公司介绍</a> &gt; <a href="#">公司简介</a></li><li class="current_location_2">公司简介</li></ul></div>
 <div class="sublanmu_box sublanmu_box_564">
-<div class="sublanmu_content sublanmu_content_introduct"><p style="display: block"><font color="#555555"><a target="_blank" href="http://www.pageadmin.net/public/upload/s1/fck/image/v2.jpg"><img vspace="5" hspace="5" border="0" align="right" alt="" src="/public/upload/s1/fck/image/2011-05/13163518[1].jpg" /></a></font>PageAdmin CMS是一款支持多分站、多语种，集成内容发布、信息发布、自定义表单、自定义模型、会员系统、业务管理等功能于一体的网站管理系统，于2009年正式发布，目前全国用户已经超过50万以上，被广泛用于企业、中小学、大专院校，政府部门的网站搭建。<br />
+<div class="sublanmu_content sublanmu_content_introduct"><p style="display: block"><font color="#555555"><a target="_blank" href="http://www.pageadmin.net/public/upload/s1/fck/image/v2.jpg"><img vspace="5" hspace="5" border="0" align="right" alt="" src="upload/s1/fck/image/2011-05/13163518[1].jpg" /></a></font>PageAdmin CMS是一款支持多分站、多语种，集成内容发布、信息发布、自定义表单、自定义模型、会员系统、业务管理等功能于一体的网站管理系统，于2009年正式发布，目前全国用户已经超过50万以上，被广泛用于企业、中小学、大专院校，政府部门的网站搭建。<br />
 &nbsp;<br />
 <strong>PageAdmin特点</strong><br />
 &nbsp;&nbsp;&nbsp; 1、简单易用、强大灵活：以前开发一个网站只能找网络公司，  做出的网站管理后台功能简单，导致后期维护、修改和扩展困难，甚至只能付费让制作公司维护，PageAdmin强大的功能、易用性、灵活扩展性完美的解决 了这些问题。因为系统经过多年发展，其间综合了大量用户的切身使用体验，大大小小经过上百次的升级更新，在操作上不断追求人性化，功能上在也日趋完善，其 中的自定义表单+自定义模型功能更是让用户可以轻松开发出自己的个性化功能。<br />
@@ -185,16 +185,16 @@ expand_subnav("sl564","0");
 	<div class="dbd_2">
 		<ul align="center">
 			<li>
-				<a href=""><img src="/public/css/images/db_1.png" /></a> 
+				<a href=""><img src="css/images/db_1.png" /></a> 
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_2.png" /></a> 
+				<a href=""><img src="css/images/db_2.png" /></a> 
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_3.png" /></a> 
+				<a href=""><img src="css/images/db_3.png" /></a> 
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_4.png" /></a> 
+				<a href=""><img src="css/images/db_4.png" /></a> 
 			</li>
 		</ul>
 	</div>
@@ -213,7 +213,7 @@ expand_subnav("sl564","0");
 			</ul>
 		</div>
 		<div class="dbd_3_2">
-			<img src="/public/css/images/dbd_ew.jpg" /> 
+			<img src="css/images/dbd_ew.jpg" /> 
 		</div>
 	</div>
 	<p align="center">

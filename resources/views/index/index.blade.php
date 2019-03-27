@@ -21,7 +21,7 @@
 <div class="top_box">
  <div class="top_box_inner">
    
-   <div class="logo"><a href=""><img src="/public/images/s1/logo.png" border="0"></a></div>
+   <div class="logo"><a href=""><img src="images/s1/logo.png" border="0"></a></div>
    <div class="topcontent"><div style="clear:both;overflow:hidden;">
 	<div style="float:left;">
 		<ul>
@@ -45,8 +45,8 @@ function  c_keyword()
   }
  }
 </script>
-		<form action="/public/search/" target="zdy_search" method="get" name="S_article">
-			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="/public/css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
+		<form action="search/" target="zdy_search" method="get" name="S_article">
+			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
 		</form>
 	</div>
 </div></div><div class="clear"></div>
@@ -66,7 +66,7 @@ function  c_keyword()
 
 var Show_Style=3;
 var Image_12=new Array();
-var Pics="/public/images/banner/01.jpg|/public/images/banner/01.jpg";
+var Pics="images/banner/01.jpg|images/banner/01.jpg";
 var Links="";
 var Titles="";
 var Alts="";
@@ -112,7 +112,7 @@ $(function(){Slide_Focus("js_slide_focus_12",1,5,1500,400,true);});
  <div class="main_box_inner">
  
 
-<div style="width:1100px;background:url(/public/css/images/gg.jpg) no-repeat;height:30px;margin:0 auto;">
+<div style="width:1100px;background:url(css/images/gg.jpg) no-repeat;height:30px;margin:0 auto;">
 <div style="margin-left:138px;background:#D6D6D6;padding-left:15px;"><div class="gonggao marquee" id="m_179_0"><a class="prev"></a><a class="next"></a>
   <div class="inner">
    <ul>
@@ -143,9 +143,9 @@ marquee("m_179_0","up",1500);
 
 
 <div class="tj_pro">
-<div style="background:url(/public/css/images/tjcp_1.jpg) repeat-x;display:block;width:400px;height:32px;float:left"></div>
+<div style="background:url(css/images/tjcp_1.jpg) repeat-x;display:block;width:400px;height:32px;float:left"></div>
 <div class="cptj_1"><b>推 荐 产 品</b><span style="width:175px;display:block;font-size:12px;">RECOMMENDED PRODUCTS</span></div>
-<div style="background:url(/public/css/images/tjcp_1.jpg) repeat-x;display:block;width:400px;height:32px;float:left"></div>
+<div style="background:url(css/images/tjcp_1.jpg) repeat-x;display:block;width:400px;height:32px;float:left"></div>
 </div>
 <div class="tj_con">
 <ul>
@@ -162,15 +162,15 @@ marquee("m_179_0","up",1500);
 
 <div class="sy_con_1">
 	<div class="title">
-		<img src="/public/css/images/sy_1.png" /><span>About us</span>关于我们
+		<img src="css/images/sy_1.png" /><span>About us</span>关于我们
 	</div>
 	<div class="mero">
 		<a href="#">More+</a> 
 	</div>
 </div>
 <div style="clear:both;overflow:hidden;width:1100px;margin:0 auto;margin-top:30px;">
-	<img src="/public/css/images/ab.jpg" style="float:left;" />
-	<div style="background:url(/public/css/images/ab_2.png) no-repeat;float:right;width:700px;height:180px;padding:10px 10px 10px 10px;color:white;font-family:'Microsoft YaHei';text-align:left;">
+	<img src="css/images/ab.jpg" style="float:left;" />
+	<div style="background:url(css/images/ab_2.png) no-repeat;float:right;width:700px;height:180px;padding:10px 10px 10px 10px;color:white;font-family:'Microsoft YaHei';text-align:left;">
 		PageAdmin特点<br />
 &nbsp;&nbsp;&nbsp; 1、简单易用、强大灵活：以前开发一个网站只能找网络公司， 做出的网站管理后台功能简单，导致后期维护、修改和扩展困难，甚至只能付费让制作公司维护，PageAdmin强大的功能、易用性、灵活扩展性完美的解决 了这些问题。因为系统经过多年发展，其间综合了大量用户的切身使用体验，大大小小经过上百次的升级更新，在操作上不断追求人性化，功能上在也日趋完善，其 中的自定义表单+自定义模型功能更是让用户可以轻松开发出自己的个性化功能。<br />
 &nbsp;&nbsp;&nbsp; 2、高负载功能：一个网站负载功能在网站访问量或内容量巨大时至关重要，pageadmin通过生成静态化和数据库连接优化两个方面来提高网站的负载能力。<br />
@@ -183,7 +183,7 @@ marquee("m_179_0","up",1500);
 
 <div class="sy_con_2">
 	<div class="title">
-		<img src="/public/css/images/sy_2.png" /><span>News</span>新闻动态
+		<img src="css/images/sy_2.png" /><span>News</span>新闻动态
 	</div>
 </div>
 
@@ -191,7 +191,7 @@ marquee("m_179_0","up",1500);
 
 <div class="xw_1">
 <div class="xw_4">专题报道<span><a href="#">More+</a></span></div>
-<div class="xw_t"><img src="/public/css/images/xw_1_1.jpg"></div>
+<div class="xw_t"><img src="css/images/xw_1_1.jpg"></div>
 <div><div class="article">
 <ul>
 
@@ -334,7 +334,7 @@ marquee("m_179_0","up",1500);
 
 <div class="sy_con_1">
 	<div class="title">
-		<img src="/public/css/images/sy_3.png" /><span>Product</span>产品中心
+		<img src="css/images/sy_3.png" /><span>Product</span>产品中心
 	</div>
 	<div class="mero">
 		<a href="#">More+</a> 
@@ -344,31 +344,31 @@ marquee("m_179_0","up",1500);
 <ul class="product_pic">
 
 <li  style="width:185px;height:275px;">
-<a href="#"  target="_self"><img src="/public/upload/s1/product/image/2015/06/tpic_t_24161359.jpg" border="0" style="width:185px;height:275px;"></a>
+<a href="#"  target="_self"><img src="upload/s1/product/image/2015/06/tpic_t_24161359.jpg" border="0" style="width:185px;height:275px;"></a>
 <span class="title">
 <a href="#"  target="_self" title="HL-193">HL-193</a></span>
 </li>
 
 <li  style="width:185px;height:275px;">
-<a href="#"  target="_self"><img src="/public/upload/s1/product/image/2015/06/tpic_t_24161304.jpg" border="0" style="width:185px;height:275px;"></a>
+<a href="#"  target="_self"><img src="upload/s1/product/image/2015/06/tpic_t_24161304.jpg" border="0" style="width:185px;height:275px;"></a>
 <span class="title">
 <a href="#"  target="_self" title="HL-193">HL-193</a></span>
 </li>
 
 <li  style="width:185px;height:275px;">
-<a href="#"  target="_self"><img src="/public/upload/s1/product/image/2015/06/tpic_t_24161225.jpg" border="0" style="width:185px;height:275px;"></a>
+<a href="#"  target="_self"><img src="upload/s1/product/image/2015/06/tpic_t_24161225.jpg" border="0" style="width:185px;height:275px;"></a>
 <span class="title">
 <a href="#"  target="_self" title="HL-193">HL-193</a></span>
 </li>
 
 <li  style="width:185px;height:275px;">
-<a href="#"  target="_self"><img src="/public/upload/s1/product/image/2015/06/tpic_t_24161143.jpg" border="0" style="width:185px;height:275px;"></a>
+<a href="#"  target="_self"><img src="upload/s1/product/image/2015/06/tpic_t_24161143.jpg" border="0" style="width:185px;height:275px;"></a>
 <span class="title">
 <a href="#"  target="_self" title="HL-193">HL-193</a></span>
 </li>
 
 <li  style="width:185px;height:275px;">
-<a href="#"  target="_self"><img src="/public/upload/s1/product/image/2015/06/tpic_t_24161103.jpg" border="0" style="width:185px;height:275px;"></a>
+<a href="#"  target="_self"><img src="upload/s1/product/image/2015/06/tpic_t_24161103.jpg" border="0" style="width:185px;height:275px;"></a>
 <span class="title">
 <a href="#"  target="_self" title="HL-193">HL-193</a></span>
 </li>
@@ -384,7 +384,7 @@ marquee("m_179_0","up",1500);
 
 <div class="sy_con_2">
 	<div class="title">
-		<img src="/public/css/images/sy_4.png" /><span>Quick links</span>快捷链接
+		<img src="css/images/sy_4.png" /><span>Quick links</span>快捷链接
 	</div>
 </div>
 <div class="kj">
@@ -397,8 +397,8 @@ marquee("m_179_0","up",1500);
 
 </div>
 <div class="kj_2">
-<script type="text/javascript" src="/public/js/zdyform.js"></script>
-<form action="/public/aspx/post.aspx" method="post" enctype="multipart/form-data" name="feedback">
+<script type="text/javascript" src="js/zdyform.js"></script>
+<form action="aspx/post.aspx" method="post" enctype="multipart/form-data" name="feedback">
     <div>
     <ul>
         <li class="ly_1">您的姓名</li>
@@ -438,7 +438,7 @@ return true;
 
 </div>
 <div class="kj_3">
-<div class="kj_3_1"><img src="/public/css/images/sy_lx.jpg"></div>
+<div class="kj_3_1"><img src="css/images/sy_lx.jpg"></div>
 <div class="kj_3_2">
 <ul>
 <li class="a">中国某某某机械有限公司</li>
@@ -465,16 +465,16 @@ return true;
 	<div class="dbd_2">
 		<ul align="center">
 			<li>
-				<a href=""><img src="/public/css/images/db_1.png" /></a>
+				<a href=""><img src="css/images/db_1.png" /></a>
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_2.png" /></a>
+				<a href=""><img src="css/images/db_2.png" /></a>
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_3.png" /></a>
+				<a href=""><img src="css/images/db_3.png" /></a>
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_4.png" /></a>
+				<a href=""><img src="css/images/db_4.png" /></a>
 			</li>
 		</ul>
 	</div>
@@ -493,7 +493,7 @@ return true;
 			</ul>
 		</div>
 		<div class="dbd_3_2">
-			<img src="/public/css/images/dbd_ew.jpg" /> 
+			<img src="css/images/dbd_ew.jpg" /> 
 		</div>
 	</div>
 	<p align="center">
