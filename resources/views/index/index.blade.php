@@ -80,7 +80,7 @@ marquee("m_179_0","up",1500);
 
 <div class="sy_con_1">
 	<div class="title">
-		<img src="css/images/sy_2.png" /><span>Product</span>产品中心
+		<img src="css/images/sy_2.png" /><span>Solution</span>解决方案
 	</div>
 	<div class="mero">
 		<a href="{{ route('product') }}">More+</a> 
