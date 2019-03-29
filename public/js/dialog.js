@@ -1,4 +1,4 @@
-﻿document.write("<script src=\"/public/incs/dialog/popup.js?skin=default\" type=\"text/javascript\"></script>");
+﻿document.write("<script src=\"/e/incs/dialog/popup.js?skin=default\" type=\"text/javascript\"></script>");
 function IDialog(title,url,width,height,scroll) //iframe弹出层,width和height支持百分比字符
  {
    if(typeof(scroll)=="undefined")

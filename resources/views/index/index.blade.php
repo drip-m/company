@@ -1,23 +1,8 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<title>机械工业制品网站-Powered by PageAdmin CMS</title>
-<meta name="keywords" content="机械工业制品网站" />
-<meta name="Author" content="PageAdmin网站管理系统" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link href="{{ asset('templates/150703/style.css') }}" type="text/css" rel="stylesheet" />
-<script src="{{ asset('js/jquery.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/function.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/comm.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/zh-cn/lang.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/script.js') }}" type="text/javascript"></script>
-<link href="{{ asset('css/comm.css') }}" type="text/css" rel="stylesheet" />
-<link href="{{ asset('css/diy.css') }}" type="text/css" rel="stylesheet" />
-<link href="{{ asset('css/focus.css') }}" type="text/css" rel="stylesheet" />
-</head>
-<body>
+﻿@extends('layout.app')
+@section('content')
+
 <div class="page_style lanmupage page_l61">
+<<<<<<< HEAD
 <div class="top_box">
  <div class="top_box_inner">
    
@@ -112,11 +97,17 @@ for(i=0;i<Apic12.length;i++)
 $(function(){Slide_Focus("js_slide_focus_12",1,5,1500,400,true);});
 
 </script></div>
+=======
+
+@include('layout._top')
+
+
+>>>>>>> 7ea406369806e12c3a4cfae23373bfa0c390b8b3
 <div class="main_box main_box_style">
  <div class="main_box_inner">
  
 
-<div style="width:1100px;background:url(css/images/gg.jpg) no-repeat;height:30px;margin:0 auto;">
+<!-- <div style="width:1100px;background:url(css/images/gg.jpg) no-repeat;height:30px;margin:0 auto;">
 <div style="margin-left:138px;background:#D6D6D6;padding-left:15px;"><div class="gonggao marquee" id="m_179_0"><a class="prev"></a><a class="next"></a>
   <div class="inner">
    <ul>
@@ -139,7 +130,7 @@ $(function(){Slide_Focus("js_slide_focus_12",1,5,1500,400,true);});
 marquee("m_179_0","up",1500);
 </script>
 </div>
-</div>
+</div> -->
 
    
 
@@ -169,179 +160,28 @@ marquee("m_179_0","up",1500);
 		<img src="css/images/sy_1.png" /><span>About us</span>关于我们
 	</div>
 	<div class="mero">
-		<a href="#">More+</a> 
+		<a href="{{ route('about') }}">More+</a> 
 	</div>
 </div>
 <div style="clear:both;overflow:hidden;width:1100px;margin:0 auto;margin-top:30px;">
 	<img src="css/images/ab.jpg" style="float:left;" />
 	<div style="background:url(css/images/ab_2.png) no-repeat;float:right;width:700px;height:180px;padding:10px 10px 10px 10px;color:white;font-family:'Microsoft YaHei';text-align:left;">
-		PageAdmin特点<br />
-&nbsp;&nbsp;&nbsp; 1、简单易用、强大灵活：以前开发一个网站只能找网络公司， 做出的网站管理后台功能简单，导致后期维护、修改和扩展困难，甚至只能付费让制作公司维护，PageAdmin强大的功能、易用性、灵活扩展性完美的解决 了这些问题。因为系统经过多年发展，其间综合了大量用户的切身使用体验，大大小小经过上百次的升级更新，在操作上不断追求人性化，功能上在也日趋完善，其 中的自定义表单+自定义模型功能更是让用户可以轻松开发出自己的个性化功能。<br />
-&nbsp;&nbsp;&nbsp; 2、高负载功能：一个网站负载功能在网站访问量或内容量巨大时至关重要，pageadmin通过生成静态化和数据库连接优化两个方面来提高网站的负载能力。<br />
+&nbsp;&nbsp;&nbsp;  <strong>济南日新极星机电设备有限公司</strong>专业致力于中央空调(暖通净化空调）、区域供热系统自控、楼宇自控、热力工程、给排水及建筑智能化自动控制产品设备的开发、生产、销售及其工程配套。
+
+    <br />&nbsp;&nbsp;&nbsp;公司是美国霍尼韦尔和德国西门子山东地区的授权代理商。公司在省内外皆有完成项目，因过硬的产品质量和完善的售后服务，而受到客户的一致好评。
+
+<br />&nbsp;&nbsp;&nbsp;产品涉及风机盘管温控器;电动二、三通阀;热交换器出水温度控制阀;温湿度控制器;PLC、DDC直接数字控制器;各种传感器;调节阀;水流开关;新风机组、空气处理机组、制冷站自控;热量表、温控阀;水力平衡阀;自动排气阀;压差表;变频器等;各种配电箱配电柜、强弱电控制柜、GGD国标控制柜、恒温恒湿......
+
+    <br />
 	</div>
 </div>
-   
-
-
-
-
-<div class="sy_con_2">
-	<div class="title">
-		<img src="css/images/sy_2.png" /><span>News</span>新闻动态
-	</div>
-</div>
-
-<div class="xw_con">
-
-<div class="xw_1">
-<div class="xw_4">专题报道<span><a href="#">More+</a></span></div>
-<div class="xw_t"><img src="css/images/xw_1_1.jpg"></div>
-<div><div class="article">
-<ul>
-
-<li><span class="title">
-<a href="#" target="_self" title="A股遭遇深度调整 本周10金股逆市大涨（5）" style="">A股遭遇深度调整 本周10金股逆市大涨（5）</a></span>
-<span class="date">07-04</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="A股遭遇深度调整 本周10金股逆市大涨（4）" style="">A股遭遇深度调整 本周10金股逆市大涨（4）</a></span>
-<span class="date">07-04</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="A股遭遇深度调整 本周10金股逆市大涨（3）" style="">A股遭遇深度调整 本周10金股逆市大涨（3）</a></span>
-<span class="date">07-04</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="A股遭遇深度调整 本周10金股逆市大涨（2）" style="">A股遭遇深度调整 本周10金股逆市大涨（2）</a></span>
-<span class="date">07-04</span>
-<span class="clear"></span>
-</li>
-
-</ul></div>
-</div>
-</div>
-
-<div class="xw_2">
-<div class="xw_4">公司新闻<span><a href="#">More+</a></span></div>
-<div><div class="article">
-<ul>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容8" style="">中国机械公司机械加工工艺内容8</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容" style="">中国机械公司机械加工工艺内容</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容7" style="">中国机械公司机械加工工艺内容7</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容2" style="">中国机械公司机械加工工艺内容2</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容3" style="">中国机械公司机械加工工艺内容3</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容4" style="">中国机械公司机械加工工艺内容4</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容5" style="">中国机械公司机械加工工艺内容5</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-</ul></div>
-</div>
-</div>
-
-<div class="xw_3">
-<div class="xw_4">行业新闻<span><a href="#">More+</a></span></div>
-<div><div class="article">
-<ul>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容1" style="">中国机械公司机械加工工艺内容1</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容2" style="">中国机械公司机械加工工艺内容2</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容3" style="">中国机械公司机械加工工艺内容3</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容4" style="">中国机械公司机械加工工艺内容4</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容5" style="">中国机械公司机械加工工艺内容5</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容6" style="">中国机械公司机械加工工艺内容6</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-<li><span class="title">
-<a href="#" target="_self" title="中国机械公司机械加工工艺内容7" style="">中国机械公司机械加工工艺内容7</a></span>
-<span class="date">06-24</span>
-<span class="clear"></span>
-</li>
-
-</ul></div>
-</div>
-</div>
-
-</div>
-
-   
-
-
-
 
 <div class="sy_con_1">
 	<div class="title">
-		<img src="css/images/sy_3.png" /><span>Product</span>产品中心
+		<img src="css/images/sy_2.png" /><span>Product</span>产品中心
 	</div>
 	<div class="mero">
-		<a href="#">More+</a> 
+		<a href="{{ route('product') }}">More+</a> 
 	</div>
 </div>
 <div class="cp_con">
@@ -388,16 +228,16 @@ marquee("m_179_0","up",1500);
 
 <div class="sy_con_2">
 	<div class="title">
-		<img src="css/images/sy_4.png" /><span>Quick links</span>快捷链接
+		<img src="css/images/sy_3.png" /><span>Quick links</span>快捷链接
 	</div>
 </div>
 <div class="kj">
 <div class="kj_1">
 
-<div class="kj_1_1"><a href="index.aspx?lanmuid=62&sublanmuid=564">关于我们<span>About us</span></a></div>
-<div class="kj_1_2"><a href="index.aspx?lanmuid=64&sublanmuid=538">资料下载<span>Data download</span></a></div>
-<div class="kj_1_3"><a href="index.aspx?lanmuid=67&sublanmuid=650">产品中心<span>Product center</span></a></div>
-<div class="kj_1_4"><a href="index.aspx?lanmuid=65&sublanmuid=534">联系我们<span>Contact us</span></a></div>
+<div class="kj_1_1"><a href="{{ route('about') }}">关于我们<span>About us</span></a></div>
+<div class="kj_1_2"><a href="{{ route('download') }}">资料下载<span>Data download</span></a></div>
+<div class="kj_1_3"><a href="{{ route('product') }}">产品中心<span>Product center</span></a></div>
+<div class="kj_1_4"><a href="{{ route('contact') }}">联系我们<span>Contact us</span></a></div>
 
 </div>
 <div class="kj_2">
@@ -445,11 +285,10 @@ return true;
 <div class="kj_3_1"><img src="css/images/sy_lx.jpg"></div>
 <div class="kj_3_2">
 <ul>
-<li class="a">中国某某某机械有限公司</li>
-<li class="b">4008-123-1X3</li>
-<li class="c">021-1234567X</li>
-<li class="d">xxxxx@xxxxx.com</li>
-<li class="e">XX市XXX区XXX路123号XXX大厦</li>
+<li class="a">济南日新极星机电设备有限公司</li>
+<li class="b">0531-87039611</li>
+<li class="d">13969247033@163.com</li>
+<li class="e">山东省济南市经四路万达广场B座1103室</li>
 </ul>
 </div>
 </div>
@@ -462,6 +301,7 @@ return true;
 
  </div>
  <div class="clear main_box_inner_bottom"></div>
+<<<<<<< HEAD
 </div><div class="bottom_box"><div class="dbd">
 	<div class="dbd_1" align="center">
 		<a href="index.aspx">网站首页</a>&nbsp;|&nbsp;<a href="#">关于我们</a>&nbsp;|&nbsp;<a href="#">新闻动态</a>&nbsp;|&nbsp;<a href="#">产品中心</a>&nbsp;|&nbsp;<a href="#">资料下载</a>&nbsp;|&nbsp;<a href="#">联系我们</a> 
@@ -504,3 +344,7 @@ return true;
 		本模板基于PageAdmin<a target="_blank" href="http://www.pageadmin.net/">网站管理系统</a>制作 Copyright <span style="font-family:Arial;">&copy;</span> 2008-2009&nbsp;&nbsp; PageAdmin <a target="_blank" href="http://www.pageadmin.net/">CMS</a><a href="http://www.pageadmin.net/" target="_blank"></a> 
 	</p>
 </div></div><div align='center' style='padding:5px'>Powered by <a href='http://www.pageadmin.net' target='_blank'><strong>PageAdmin CMS</strong></a></div></div></body></html>
+=======
+</div>
+@endsection
+>>>>>>> 7ea406369806e12c3a4cfae23373bfa0c390b8b3

@@ -1,63 +1,10 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<title>招聘职位-机械工业制品网站</title>
-<meta name="Author" content="PageAdmin网站管理系统" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link href="{{ asset('templates/150703/style.css') }}" type="text/css" rel="stylesheet" />
-<script src="{{ asset('js/jquery.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/function.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/comm.js') }}" type="text/javascript"></script><script src="{{ asset('js/zh-cn/lang.js') }}" type="text/javascript"></script><script src="{{ asset('js/script.js') }}" type="text/javascript"></script>
-<link href="{{ asset('css/comm.css') }}" type="text/css" rel="stylesheet" />
-<link href="{{ asset('css/diy.css') }}" type="text/css" rel="stylesheet" />
-<link href="{{ asset('css/focus.css') }}" type="text/css" rel="stylesheet" />
-</head>
-<body>
+﻿@extends('layout.app')
+@section('content')
+
 <div class="page_style sublanmupage page_l68_sl602">
-<div class="top_box">
- <div class="top_box_inner">
-   
-   <div class="logo"><a href="/"><img src="images/s1/logo.png" border="0"></a></div>
-   <div class="topcontent"><div style="clear:both;overflow:hidden;">
-	<div style="float:left;">
-		<ul>
-			<li class="top_1">
-				SERVICE HOTLINE
-			</li>
-			<li class="top_2">
-				TEL:400-123-XXXX
-			</li>
-		</ul>
-	</div>
-	<div style="float:left;">
-<script type="text/javascript">
-function  c_keyword()
- {
-  if($("title").value=="")
-  {
-    alert("请输入关键词！");
-    $("title").focus();
-    return false;
-  }
- }
-</script>
-		<form action="/public/search/" target="zdy_search" method="get" name="S_article">
-			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
-		</form>
-	</div>
-</div></div><div class="clear"></div>
-   <div class="menu_box" id="Menu"><ul>
-<li class="menu_style_homepage" id="MenuItem61" name="MenuItem"><a href="/" class="menu">首页</a></li>
-<li class="menu_style" id="MenuItem62" name="MenuItem"><a href="/index/about/" class="menu">公司介绍</a></li>
-<li class="menu_style" id="MenuItem63" name="MenuItem"><a href="/index/news/" class="menu">新闻资讯</a></li>
-<li class="menu_style" id="MenuItem67" name="MenuItem"><a href="/index/product/" class="menu">产品中心</a></li>
-<li class="menu_style" id="MenuItem64" name="MenuItem"><a href="/index/server/" class="menu">资料下载</a></li>
-<li class="menu_style menu_current" id="MenuItem68" name="MenuItem"><a href="/index/rczp/" class="menu">人才招聘</a></li>
-<li class="menu_style" id="MenuItem65" name="MenuItem"><a href="/index/contact/" class="menu">联系我们</a></li>
-</ul></div>
- </div>
-</div>
+	
+@include('layout._top')
+
 <script type="text/javascript">var IsPageHome="";var Lanmu_Id="68";var Sublanmu_Id="602";ShowSubMenu(Lanmu_Id);</script>
 <div class="banner"><script type="text/javascript">
 var Show_Style=3;
@@ -205,45 +152,4 @@ expand_subnav("sl602","0");
 </div>
 
 
-<div class="bottom_box"><div class="dbd">
-	<div class="dbd_1" align="center">
-		<a href="index.aspx">网站首页</a>&nbsp;|&nbsp;<a href="#">关于我们</a>&nbsp;|&nbsp;<a href="#">新闻动态</a>&nbsp;|&nbsp;<a href="#">产品中心</a>&nbsp;|&nbsp;<a href="#">资料下载</a>&nbsp;|&nbsp;<a href="#">联系我们</a> 
-	</div>
-	<div class="dbd_2">
-		<ul align="center">
-			<li>
-				<a href=""><img src="css/images/db_1.png" /></a> 
-			</li>
-			<li>
-				<a href=""><img src="css/images/db_2.png" /></a> 
-			</li>
-			<li>
-				<a href=""><img src="css/images/db_3.png" /></a> 
-			</li>
-			<li>
-				<a href=""><img src="css/images/db_4.png" /></a> 
-			</li>
-		</ul>
-	</div>
-	<div class="dbd_3">
-		<div class="dbd_3_1">
-			<ul>
-				<li>
-					地址：XX市XX区XXXX号 XXX室
-				</li>
-				<li>
-					电话：0760-22517081
-				</li>
-				<li>
-					传真：021-4545212X
-				</li>
-			</ul>
-		</div>
-		<div class="dbd_3_2">
-			<img src="css/images/dbd_ew.jpg" /> 
-		</div>
-	</div>
-	<p align="center">
-		本模板基于PageAdmin<a target="_blank" href="http://www.pageadmin.net/">网站管理系统</a>制作 Copyright <span style="font-family:Arial;">&copy;</span> 2008-2009&nbsp;&nbsp; PageAdmin <a target="_blank" href="http://www.pageadmin.net/">CMS</a><a href="http://www.pageadmin.net/" target="_blank"></a> 
-	</p>
-</div></div><div align='center' style='padding:5px'>Powered by <a href='http://www.pageadmin.net' target='_blank'><strong>PageAdmin CMS</strong></a></div></div></body></html>
+@endsection

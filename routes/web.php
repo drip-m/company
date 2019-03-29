@@ -11,4 +11,12 @@
 |
 */
 
-Route::get('/', 'IndexController@index');
+Route::get('/', 'IndexController@index')->name("home");
+Route::get('/about', 'IndexController@about')->name('about'); // 关于我们
+Route::get('/contact', 'IndexController@contact')->name('contact'); // 联系我们
+// Route::get('/news', 'IndexController@news')->name('news');
+Route::get('/product', 'IndexController@product')->name('product'); // 产品中心
+Route::get('/solution', 'IndexController@solution')->name('solution'); // 解决方案
+Route::get('/engineering', 'IndexController@engineering')->name('engineering'); // 工程案例
+// Route::get('/rczp', 'IndexController@rczp')->name('rczp');
+Route::get('/download', 'IndexController@download')->name('download'); // 下载中心

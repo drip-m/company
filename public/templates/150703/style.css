@@ -19,10 +19,10 @@ a:hover{color:#0064D4;text-decoration:none;}
 
 /*顶部及主菜单样式*/
 
-.top_box{clear:both;width:100%;background:url(../../../public/css/images/top_nj_db.jpg) repeat-x bottom left;}
+.top_box{clear:both;width:100%;background:url(../../../css/images/top_nj_db.jpg) repeat-x bottom left;}
 .top_box .top_box_inner{width:1100px;margin:0 auto;}
-.top_box .logo{float:left;text-align:left;padding:5px 0 5px 0;padding:20px 0px 20px 5px; }
-.top_box .topcontent{float:right;text-align:right;padding:15px 5px 5px 0}
+.top_box .logo{float:left;text-align:left;padding:5px 0 5px 0;padding:20px 0px -1px 5px; }
+.top_box .topcontent{float:right;text-align:right;padding:15px 5px 0 0}
 .menu_box{text-align:left;height:55px;background:#24428A;}
 .menu_box ul{width:1100px;margin:0 auto;}
 
@@ -30,9 +30,9 @@ a:hover{color:#0064D4;text-decoration:none;}
 .menu_style{float:left;width:150px;height:55px;text-align:center;line-height:55px;font-size:15px;font-family:"Microsoft YaHei";}
 
 a.menu{display:block;width:150px;height:55px;color:#ffffff;text-decoration: none;font-weight:bold;padding:0px 0 0 0}
-a.menu:hover {color:#ffffff;text-decoration:none;font-weight:bold;background:url(../../../public/css/images/lm_bg.jpg) repeat-x;}
+a.menu:hover {color:#ffffff;text-decoration:none;font-weight:bold;background:url(../../../css/images/lm_bg.jpg) repeat-x;}
 
-.menu_current a.menu{color:#ffffff;text-decoration:none;font-weight:bold;background:url(../../../public/css/images/lm_bg.jpg) repeat-x;}
+.menu_current a.menu{color:#ffffff;text-decoration:none;font-weight:bold;background:url(../../../css/images/lm_bg.jpg) repeat-x;}
 
 /*banner样式*/
 
@@ -41,7 +41,7 @@ a.menu:hover {color:#ffffff;text-decoration:none;font-weight:bold;background:url
 
 /*网站主体框架样式*/
 
-.main_box_style{clear:both;margin:3px 0 0 0;background:url(../../../public/css/images/ztbg.png) repeat-x left bottom;}
+.main_box_style{clear:both;margin:3px 0 0 0;background:url(../../../css/images/ztbg.png) repeat-x left bottom;}
 
 .main_box_style1{clear:both;margin:3px 0 0 0;overflow:hidden;width:1100px;margin:0 auto;}
 .main_box_style1 .main_box_inner_left{float:left;width:290px;margin:0 10px 0 0;overflow:hidden;text-align:left;}
@@ -61,7 +61,7 @@ a.menu:hover {color:#ffffff;text-decoration:none;font-weight:bold;background:url
 .nav_box{clear:both;width:100%;margin:0 0 0px 0;overflow:hidden;}
 
 .nav_title{font-weight:bold;border:0 solid #cccccc;border-width:0 0 1px 0;height:75px;text-align:left;background:#173070;cursor:pointer;overflow:hidden;margin-top:10px;font-size:28px;font-family:"Microsoft YaHei";color:white;position:relative;padding-top:10px;}
-.nav_sign{float:left;text-align:left;padding:0px 0 0 100px;border-right:1px white dashed;height:65px;}
+.nav_sign{float:left;text-align:left;padding:0px 0 0 100px;height:65px;}
 .en_sign{position:absolute;margin-top:-40px;margin-left:120px;font-size:16px;color:white;}
 .nav_more{float:right;font-weight:normal;padding:8px 10px 0 10px;margin:0 0 0 0;}
 .nav_more a{line-height:15px;font-size:10px;}
@@ -165,6 +165,6 @@ a.logined_href:hover{font-size:9pt;color:#FF0000;text-decoration:underline}
 
 /*其他样式*/
 .textarea{border:1px solid #cccccc;border-color:#000000 #cccccc #cccccc #000000;}
-.button{width:55px;font-size:9pt;height:19px;cursor:pointer;background-image:url(public/button.gif);background-position: center center;border-top: 0px outset #eeeeee;border-right: 0px outset #888888;border-bottom: 0px outset #888888;border-left: 0px outset #eeeeee;padding-top: 2px;background-repeat: repeat-x;}
+.button{width:55px;font-size:9pt;height:19px;cursor:pointer;background-image:url(button.gif);background-position: center center;border-top: 0px outset #eeeeee;border-right: 0px outset #888888;border-bottom: 0px outset #888888;border-left: 0px outset #eeeeee;padding-top: 2px;background-repeat: repeat-x;}
 .tb{border:1px solid #cccccc;border-color:#000000 #cccccc #cccccc #000000;}
-.bt{height:22px;width:70px;font-size:9pt;background-image:url(public/bt.gif);padding-top:2px;cursor:pointer;border-width:0px;}
+.bt{height:22px;width:70px;font-size:9pt;background-image:url(bt.gif);padding-top:2px;cursor:pointer;border-width:0px;}
