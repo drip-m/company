@@ -10,24 +10,20 @@
    <div class="main_box_inner_left">
 <div id="nav_109"  class="nav_box nav_box_menu">
 
-	<div  class="nav_title"><span  class="nav_sign">产品中心</span><span  class="nav_more"></span></div>
-	<div class="en_sign">product</div>
-	<div id="nav_menu_109"  class="nav_menu">
-		<ul id="rootul_109">
-			<li id="sl650"><a href="#" class="sla650">工业机械</a></li>
-			<li id="sl651"><a href="#" class="sla651">工业机床</a></li>
-			<li id="sl652"><a href="#" class="sla652">工业工具</a></li>
-			<li id="sl653"><a href="#" class="sla653">工业五金</a></li>
-		</ul>
-	</div>
-</div>
+<div  class="nav_title"><span  class="nav_sign">解决方案</span><span  class="nav_more"></span></div>
+<div class="en_sign">product</div><div id="nav_menu_109"  class="nav_menu">
+<ul id="rootul_109"><li id="sl650"><a href="#" class="sla650">工业机械</a></li>
+<li id="sl651"><a href="#" class="sla651">工业机床</a></li>
+<li id="sl652"><a href="#" class="sla652">工业工具</a></li>
+<li id="sl653"><a href="#" class="sla653">工业五金</a></li>
+</ul>
+</div></div>
 <script type="text/javascript">
 shut_allsubnav("rootul_109");
 expand_subnav("sl650","0");
 </script>
 
 @include('layout._contact')
-
 
 </div>
    <div class="main_box_inner_right">

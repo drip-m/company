@@ -10,12 +10,12 @@
    switch(submenu_style)
     {
       case 1:
-       document.write('<link rel="stylesheet" type="text/css" href="/e/css/dropmenu.css" />');
+       document.write('<link rel="stylesheet" type="text/css" href="/css/dropmenu.css" />');
        addHover("Menu","li","hover");
       break;
 
      case 2:
-       document.write('<link rel="stylesheet" type="text/css" href="/e/css/submenu.css" />');
+       document.write('<link rel="stylesheet" type="text/css" href="/css/submenu.css" />');
        HorisontalSubMenu(id);
      break;
    }
@@ -221,7 +221,7 @@ function AddFavourites(sid,tb,Id) //收藏
    var x=new PAAjax();
    x.setarg("post",true);
    var Url=location.href;
-   x.send("/e/aspx/add_favo.aspx","table="+tb+"&id="+Id+"&url="+UrlEncode(Url)+"&post=add",function(v){AddFavourites_Back(sid,v)});
+   x.send("/aspx/add_favo.aspx","table="+tb+"&id="+Id+"&url="+UrlEncode(Url)+"&post=add",function(v){AddFavourites_Back(sid,v)});
  }
 
 function TongJi(s)//流量统计
@@ -241,7 +241,7 @@ function TongJi(s)//流量统计
       {
        var x=new PAAjax();
        x.setarg("get",true);
-       x.send("/e/aspx/count.aspx","referer="+UrlEncode(referer)+"&s="+s,function(v){TJCookie(v,referer)});
+       x.send("/aspx/count.aspx","referer="+UrlEncode(referer)+"&s="+s,function(v){TJCookie(v,referer)});
       }
  }
 
@@ -265,12 +265,12 @@ function ordercart(sid,Table,Id,thecolor,thesize,thetype) //产品订单界面�
     if(thecolor==null){thecolor="";}
     if(thesize==null){thesize="";}
     if(thetype==null){thetype="";}
-    IDialog('订购窗口',"/e/order/order.aspx?s="+sid+"&table="+Table+"&id="+Id+"&color="+thecolor+"&size="+thesize+"&type="+thetype,800,500);
+    IDialog('订购窗口',"/order/order.aspx?s="+sid+"&table="+Table+"&id="+Id+"&color="+thecolor+"&size="+thesize+"&type="+thetype,800,500);
  }
 
 function exchange(sid,Table,Id) //积分兑换界面
  {
-   IDialog('积分兑换窗口',"/e/order/exchange.aspx?s="+sid+"&table="+Table+"&id="+Id,550,450);
+   IDialog('积分兑换窗口',"/order/exchange.aspx?s="+sid+"&table="+Table+"&id="+Id,550,450);
  }
 
 function open_calendar(Id,showtime)
@@ -309,7 +309,7 @@ function Get_Info(Table,Id)
   var R=Math.random();
   var x=new PAAjax();
   x.setarg("get",true);
-  x.send("/e/aspx/get_info.aspx","table="+Table+"&id="+Id+"&r="+R,function(v){Write_Info(v)});
+  x.send("/aspx/get_info.aspx","table="+Table+"&id="+Id+"&r="+R,function(v){Write_Info(v)});
  }
 
 function Write_Info(V)
@@ -342,6 +342,6 @@ function Link_Open(link,Target) //友情链接
       window.open(link,Target);
     }
  }
-document.write("<script src=\"/public/js/function.js\" type=\"text/javascript\"></script>");
-document.write("<script src=\"/public/js/dialog.js\" type=\"text/javascript\"></script>");                                                                    
-document.write("<script src=\"/public/incs/pie/PIE.js\" type=\"text/javascript\"></script>");
+// document.write("<script src=\"/js/function.js\" type=\"text/javascript\"></script>");
+// document.write("<script src=\"/js/dialog.js\" type=\"text/javascript\"></script>");                                                                    
+// document.write("<script src=\"/incs/pie/PIE.js\" type=\"text/javascript\"></script>");

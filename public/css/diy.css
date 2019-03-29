@@ -83,7 +83,7 @@
 .kj_3{float:right;}
 .kj_3_1{padding:2px;border:1px solid #CCCCCC ;margin-top:10px;margin-bottom:10px;}
 .kj_3_1 img{width:280px;height:75px;}
-.kj_3_2 li{border-bottom:1px solid #CCCCCC;color:#5A5A5A;padding-left:40px;height:42px;line-height:42px;width:250px;font-family:"Microsoft YaHei";font-size:14px;}
+.kj_3_2 li{border-bottom:1px solid #CCCCCC;color:#5A5A5A;padding-left:40px;height:42px;line-height:42px;width:250px;font-family:"Microsoft YaHei";font-size:13px;}
 .kj_3_2 .a{background:url(images/sy_lx_1.png) no-repeat 0 10px;}
 .kj_3_2 .b{background:url(images/sy_lx_2.png) no-repeat 0 10px;}
 .kj_3_2 .c{background:url(images/sy_lx_3.png) no-repeat 0 10px;}
@@ -106,14 +106,14 @@
 
 /*内页 联系*/
 .ny_lx{background:#173070;position:relative;border:1px solid #CCCCCC;padding:5px;margin-bottom:20px;margin-top:20px;}
-.ny_lx_1{font-size:26px;font-family:"Microsoft YaHei";color:white;margin-right:71px;border-right:1px dashed white;text-align:right}
+.ny_lx_1{font-size:26px;font-family:"Microsoft YaHei";color:white;margin-right:71px;text-align:right}
 .ny_lx_2{position:absolute;margin-top:-70px;margin-left:10px;}
 .ny_lx_a{margin:0 0 30px 0}
 .ny_ly{width:400px;margin:0 auto;}
 .ny_ly_t{width:700px;margin:0 auto;margin-bottom:20px;}
 .ny_ly_t img{width:700px;height:200px;}
 
-.lxfs{border:1px solid #CCCCCC;}
+#.lxfs{border:1px solid #CCCCCC;}
 .lxfs li{height:50px;line-height:50px;padding-left:30px;color:#1E387B;font-family:"Microsoft YaHei";}
 .lxfs .a{background:url(images/lxfs_1.jpg) no-repeat 2px 15px;}
 .lxfs .b{background:url(images/lxfs_1.jpg) no-repeat 2px 15px;}
