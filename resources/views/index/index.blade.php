@@ -2,107 +2,9 @@
 @section('content')
 
 <div class="page_style lanmupage page_l61">
-<<<<<<< HEAD
-<div class="top_box">
- <div class="top_box_inner">
-   
-   <div class="logo"><a href=""><img src="images/s1/logo.png" border="0"></a></div>
-   <div class="topcontent"><div style="clear:both;overflow:hidden;">
-	<div style="float:left;">
-		<ul>
-			<li class="top_1">
-				SERVICE HOTLINE
-			</li>
-			<li class="top_2">
-				TEL:400-123-XXXX
-			</li>
-		</ul>
-	</div>
-	<div style="float:left;">
-<script type="text/javascript">
-function  c_keyword()
- {
-  if($("title").value=="")
-  {
-    alert("请输入关键词！");
-    $("title").focus();
-    return false;
-  }
- }
-</script>
-		<form action="search/" target="zdy_search" method="get" name="S_article">
-			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
-		</form>
-	</div>
-</div></div><div class="clear"></div>
-   <div class="menu_box" id="Menu"><ul>
-<li class="menu_style_homepage menu_current" id="MenuItem61" name="MenuItem"><a href="/" class="menu">马凯</a></li>
-<li class="menu_style" id="MenuItem62" name="MenuItem"><a href="/index/about" class="menu">马凯</a></li>
-<li class="menu_style" id="MenuItem63" name="MenuItem"><a href="/index/news/" class="menu">马凯</a></li>
-<li class="menu_style" id="MenuItem67" name="MenuItem"><a href="/index/product/" class="menu">马凯</a></li>
-<li class="menu_style" id="MenuItem64" name="MenuItem"><a href="/index/server/" class="menu">马凯</a></li>
-<li class="menu_style" id="MenuItem68" name="MenuItem"><a href="/index/rczp/" class="menu">马凯</a></li>
-<li class="menu_style" id="MenuItem65" name="MenuItem"><a href="/index/contact/" class="menu">马凯</a></li>
-</ul></div>
- </div>
-</div>
-<script type="text/javascript">var IsPageHome="1";var Lanmu_Id="61";var Sublanmu_Id="0";ShowSubMenu(Lanmu_Id);</script>
-<div class="banner"><script  type="text/javascript">
-
-var Show_Style=3;
-var Image_12=new Array();
-<<<<<<< HEAD
-var Pics="/images/banner/01.jpg|/images/banner/01.jpg";
-=======
-var Pics="images/banner/01.jpg|images/banner/01.jpg";
->>>>>>> 4c1920dc17dea72dfdee7341c7c15024d818b680
-var Links="";
-var Titles="";
-var Alts="";
-var Apic12=Pics.split('|');
-var ALink12=Links.split('|');
-var ATitle12=Titles.split('|');
-var AAlts12=Alts.split('|');
-var Show_Text=0;
-for(i=0;i<Apic12.length;i++)
-  {
-   Image_12.src = Apic12[i]; 
-  }
-
-
-
-  var FHTML='<div id="js_slide_focus_12" class="slide_focus focus_style3" style="height:400px">';
-  FHTML+='<ul class="inner">';
-  for(var i=0;i<Apic12.length;i++)
-   {
-     if(ALink12.length<(i+1) || ALink12[i]=="")
-      {
-       ALink12[i]="javascript:void(0)";
-      }
-     if(AAlts12.length<(i+1))
-      {
-       AAlts12[i]="";
-      }
-     if(ATitle12.length<(i+1))
-      {
-       ATitle12[i]="";
-      }
-    FHTML+='<li><a href="'+ALink12[i]+'" target="_self" title="'+AAlts12[i]+'"><img src="'+Apic12[i]+'">';
-    FHTML+='<em>'+ATitle12[i]+'</em>';
-    FHTML+='</a></li>';
-   }
- FHTML+='</ul>';
- FHTML+='</div>';
- document.write(FHTML);
-$(function(){Slide_Focus("js_slide_focus_12",1,5,1500,400,true);});
-
-</script></div>
-=======
 
 @include('layout._top')
 
-
->>>>>>> 7ea406369806e12c3a4cfae23373bfa0c390b8b3
 <div class="main_box main_box_style">
  <div class="main_box_inner">
  
@@ -294,57 +196,9 @@ return true;
 </div>
 
 </div>
-
-   
-
-
-
  </div>
  <div class="clear main_box_inner_bottom"></div>
-<<<<<<< HEAD
-</div><div class="bottom_box"><div class="dbd">
-	<div class="dbd_1" align="center">
-		<a href="index.aspx">网站首页</a>&nbsp;|&nbsp;<a href="#">关于我们</a>&nbsp;|&nbsp;<a href="#">新闻动态</a>&nbsp;|&nbsp;<a href="#">产品中心</a>&nbsp;|&nbsp;<a href="#">资料下载</a>&nbsp;|&nbsp;<a href="#">联系我们</a> 
-	</div>
-	<div class="dbd_2">
-		<ul align="center">
-			<li>
-				<a href=""><img src="css/images/db_1.png" /></a>
-			</li>
-			<li>
-				<a href=""><img src="css/images/db_2.png" /></a>
-			</li>
-			<li>
-				<a href=""><img src="css/images/db_3.png" /></a>
-			</li>
-			<li>
-				<a href=""><img src="css/images/db_4.png" /></a>
-			</li>
-		</ul>
-	</div>
-	<div class="dbd_3">
-		<div class="dbd_3_1">
-			<ul>
-				<li>
-					地址：XX市XX区XXXX号 XXX室
-				</li>
-				<li>
-					电话：0760-22517081
-				</li>
-				<li>
-					传真：021-4545212X
-				</li>
-			</ul>
-		</div>
-		<div class="dbd_3_2">
-			<img src="css/images/dbd_ew.jpg" /> 
-		</div>
-	</div>
-	<p align="center">
-		本模板基于PageAdmin<a target="_blank" href="http://www.pageadmin.net/">网站管理系统</a>制作 Copyright <span style="font-family:Arial;">&copy;</span> 2008-2009&nbsp;&nbsp; PageAdmin <a target="_blank" href="http://www.pageadmin.net/">CMS</a><a href="http://www.pageadmin.net/" target="_blank"></a> 
-	</p>
-</div></div><div align='center' style='padding:5px'>Powered by <a href='http://www.pageadmin.net' target='_blank'><strong>PageAdmin CMS</strong></a></div></div></body></html>
-=======
+</div>
+</div></body></html>
 </div>
 @endsection
->>>>>>> 7ea406369806e12c3a4cfae23373bfa0c390b8b3

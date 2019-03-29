@@ -58,4 +58,4 @@
 	<p align="center">
 		本模板基于PageAdmin<a target="_blank" href="http://www.pageadmin.net/">网站管理系统</a>制作 Copyright <span style="font-family:Arial;">&copy;</span> 2008-2009&nbsp;&nbsp; PageAdmin <a target="_blank" href="http://www.pageadmin.net/">CMS</a><a href="http://www.pageadmin.net/" target="_blank"></a> 
 	</p>
-</div></div><div align='center' style='padding:5px'>Powered by <a href='http://www.pageadmin.net' target='_blank'><strong>PageAdmin CMS</strong></a></div></div></body></html>
+</div></div></div></body></html>
