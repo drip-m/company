@@ -5,20 +5,20 @@
 <meta name="Author" content="PageAdmin网站管理系统" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link href="/public/templates/150703/style.css" type="text/css" rel="stylesheet" />
-<script src="/public/js/jquery.min.js" type="text/javascript"></script>
-<script src="/public/js/function.js" type="text/javascript"></script>
-<script src="/public/js/comm.js" type="text/javascript"></script><script src="/public/js/zh-cn/lang.js" type="text/javascript"></script><script src="/public/js/script.js" type="text/javascript"></script>
-<link href="/public/css/comm.css" type="text/css" rel="stylesheet" />
-<link href="/public/css/diy.css" type="text/css" rel="stylesheet" />
-<link href="/public/css/focus.css" type="text/css" rel="stylesheet" />
+<link href="{{ asset('templates/150703/style.css') }}" type="text/css" rel="stylesheet" />
+<script src="{{ asset('js/jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/function.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/comm.js') }}" type="text/javascript"></script><script src="{{ asset('js/zh-cn/lang.js') }}" type="text/javascript"></script><script src="{{ asset('js/script.js') }}" type="text/javascript"></script>
+<link href="{{ asset('css/comm.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('css/diy.css') }}" type="text/css" rel="stylesheet" />
+<link href="{{ asset('css/focus.css') }}" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div class="page_style sublanmupage page_l68_sl602">
 <div class="top_box">
  <div class="top_box_inner">
    
-   <div class="logo"><a href="/"><img src="/public/images/s1/logo.png" border="0"></a></div>
+   <div class="logo"><a href="/"><img src="images/s1/logo.png" border="0"></a></div>
    <div class="topcontent"><div style="clear:both;overflow:hidden;">
 	<div style="float:left;">
 		<ul>
@@ -43,7 +43,7 @@ function  c_keyword()
  }
 </script>
 		<form action="/public/search/" target="zdy_search" method="get" name="S_article">
-			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="/public/css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
+			<input size="25/" maxlength="50" id="title" name="title" value="请输入查找产品的名称" onfocus="javascript:if(this.value=='请输入查找产品的名称')this.value='';" style="height:36px;width:150px;float:left;border:2px solid #074177;line-height:40px;border-radius:5px 0 0 5px;margin-left:20px;" type="text" /><input value="125" name="modelid" type="hidden" /><input style="height:40px;border:0px;width:40px;float:left;" class="botton" onclick="return c_keyword()" src="css/images/ss.jpg" type="image" /> <input name="siteid" value="1" type="hidden" /> 
 		</form>
 	</div>
 </div></div><div class="clear"></div>
@@ -62,7 +62,7 @@ function  c_keyword()
 <div class="banner"><script type="text/javascript">
 var Show_Style=3;
 var Image_12=new Array();
-var Pics="/public/images/banner/01.jpg|/public/images/banner/01.jpg";
+var Pics="images/banner/01.jpg|images/banner/01.jpg";
 var Links="";
 var Titles="";
 var Alts="";
@@ -126,7 +126,7 @@ expand_subnav("sl602","0");
 <div class="ny_lx">
 <div class="ny_lx_1"><b>联系我们</b></div>
 </div>
-<div class="ny_lx_2"><img src="/public/css/images/lx_dh.png"></div>
+<div class="ny_lx_2"><img src="css/images/lx_dh.png"></div>
 <div class="kj_3_2">
 <ul>
 <li class="a">中国某某某机械有限公司</li>
@@ -212,16 +212,16 @@ expand_subnav("sl602","0");
 	<div class="dbd_2">
 		<ul align="center">
 			<li>
-				<a href=""><img src="/public/css/images/db_1.png" /></a> 
+				<a href=""><img src="css/images/db_1.png" /></a> 
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_2.png" /></a> 
+				<a href=""><img src="css/images/db_2.png" /></a> 
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_3.png" /></a> 
+				<a href=""><img src="css/images/db_3.png" /></a> 
 			</li>
 			<li>
-				<a href=""><img src="/public/css/images/db_4.png" /></a> 
+				<a href=""><img src="css/images/db_4.png" /></a> 
 			</li>
 		</ul>
 	</div>
@@ -240,7 +240,7 @@ expand_subnav("sl602","0");
 			</ul>
 		</div>
 		<div class="dbd_3_2">
-			<img src="/public/css/images/dbd_ew.jpg" /> 
+			<img src="css/images/dbd_ew.jpg" /> 
 		</div>
 	</div>
 	<p align="center">
